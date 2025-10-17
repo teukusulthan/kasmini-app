@@ -38,7 +38,8 @@ export function Features() {
     {
       icon: Users,
       title: "Multi-User",
-      description: "Bisa digunakan untuk beberapa jenis usaha yang kamu miliki",
+      description:
+        "Bisa digunakan untuk beberapa jenis usaha yang kamu miliki.",
     },
     {
       icon: Download,
@@ -49,7 +50,7 @@ export function Features() {
   ];
 
   return (
-    <section id="fitur" className="py-12 px-8 lg:px-16 bg-white">
+    <section id="fitur" className="py-12 pt-20 px-8 lg:px-16 bg-white">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-10">
           <h2

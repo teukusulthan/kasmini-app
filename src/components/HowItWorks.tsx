@@ -16,7 +16,7 @@ export function HowItWorks() {
       icon: MessageSquare,
       title: "Catat Penjualan",
       description:
-        'Kirim pesan sederhana seperti "jual 2 nasi goreng @18k" ke bot Telegram.',
+        'Kirim pesan sederhana seperti "jual 2 nasi goreng" ke bot Telegram.',
     },
     {
       number: "03",
@@ -28,7 +28,7 @@ export function HowItWorks() {
   ];
 
   return (
-    <section id="cara-kerja" className="py-12 px-8 lg:px-16 bg-slate-50">
+    <section id="cara-kerja" className="py-12 pt-20 px-8 lg:px-16 bg-slate-50">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-10">
           <h2

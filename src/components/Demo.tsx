@@ -177,7 +177,7 @@ export function Demo() {
   };
 
   return (
-    <section className="py-12 px-8 lg:px-16 bg-white">
+    <section id="demo" className="py-12 pt-20 px-8 lg:px-16 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-10">
           <h2

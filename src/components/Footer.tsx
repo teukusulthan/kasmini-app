@@ -25,14 +25,14 @@ export function Footer() {
               className="mb-2.5"
               style={{ fontSize: "1.125rem", fontWeight: 700 }}
             >
-              Kasmini
+              kasmini<span className="text-blue-400">.</span>
             </h3>
             <p
               className="text-slate-400 mb-3 leading-relaxed"
               style={{ fontSize: "0.8125rem" }}
             >
-              Pembukuan otomatis UMKM via Telegram, Google Sheets, dan n8n.
-              Cepat, mudah, tanpa ribet.
+              Pembukuan otomatis UMKM via bot Telegram, Cepat, mudah, tanpa
+              ribet.
             </p>
             <div className="flex gap-2.5">
               <a
@@ -170,7 +170,7 @@ export function Footer() {
         <div className="border-t border-white/10 pt-5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2.5">
             <p className="text-slate-400" style={{ fontSize: "0.75rem" }}>
-              © 2025 Kasmini. All rights reserved.
+              © 2025 Kamsmini All rights reserved.
             </p>
             <div className="flex gap-4">
               <a

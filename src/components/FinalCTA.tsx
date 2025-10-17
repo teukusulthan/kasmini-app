@@ -1,8 +1,7 @@
 "use client";
 
 import { Button } from "./ui/button";
-import { ArrowRight, Play } from "lucide-react";
-
+import Link from "next/link";
 export function FinalCTA() {
   return (
     <section className="py-12 px-8 lg:px-16 bg-gradient-to-br from-[#0F172A] to-[#15213e]">
@@ -21,8 +20,17 @@ export function FinalCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
-          <Button className="bg-[#3B82F6] hover:bg-[#2563EB] text-white rounded-lg px-5 py-2.5 h-auto">
-            Coba Gratis
+          <Button
+            asChild
+            className="bg-[#3B82F6] hover:bg-[#2563EB] text-white rounded-lg px-5 py-2.5 h-auto"
+          >
+            <Link
+              href="https://t.me/kasmini_bot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Coba Gratis
+            </Link>
           </Button>
         </div>
 
@@ -33,7 +41,7 @@ export function FinalCTA() {
               className="text-white mb-0.5"
               style={{ fontWeight: 600, fontSize: "0.8125rem" }}
             >
-              Input penjualan cukup lewat chat
+              Input cukup lewat chat
             </p>
             <p className="text-slate-400" style={{ fontSize: "0.6875rem" }}>
               Tidak perlu buka banyak aplikasi
@@ -55,7 +63,7 @@ export function FinalCTA() {
               className="text-white mb-0.5"
               style={{ fontWeight: 600, fontSize: "0.8125rem" }}
             >
-              Rekap harian & mingguan
+              Rekap harian
             </p>
             <p className="text-slate-400" style={{ fontSize: "0.6875rem" }}>
               Langsung ke Telegram
@@ -66,7 +74,7 @@ export function FinalCTA() {
               className="text-white mb-0.5"
               style={{ fontWeight: 600, fontSize: "0.8125rem" }}
             >
-              Integrasi Google Sheets & n8n
+              Integrasi Google Sheets
             </p>
             <p className="text-slate-400" style={{ fontSize: "0.6875rem" }}>
               Fleksibel & mudah dikustomisasi

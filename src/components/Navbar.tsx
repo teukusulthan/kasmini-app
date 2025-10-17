@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +45,7 @@ export function Navbar() {
               className="text-lg text-[#0F172A]"
               style={{ fontWeight: 700 }}
             >
-              kasmini.
+              kasmini<span className="text-blue-400">.</span>
             </span>
           </div>
 
@@ -69,7 +70,13 @@ export function Navbar() {
               className="bg-[#3B82F6] hover:bg-[#2563EB] text-white rounded-lg px-4 py-1.5 h-auto"
               style={{ fontSize: "0.8125rem" }}
             >
-              Coba Gratis
+              <Link
+                href="https://t.me/kasmini_bot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Coba Gratis
+              </Link>
             </Button>
           </div>
 
