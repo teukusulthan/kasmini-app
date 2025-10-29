@@ -170,7 +170,7 @@ export function Footer() {
         <div className="border-t border-white/10 pt-5">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2.5">
             <p className="text-slate-400" style={{ fontSize: "0.75rem" }}>
-              © 2025 Kamsmini All rights reserved.
+              © 2025 Kasmini All rights reserved.
             </p>
             <div className="flex gap-4">
               <a
