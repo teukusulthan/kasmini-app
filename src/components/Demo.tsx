@@ -15,7 +15,7 @@ export function Demo() {
         <div className="bg-white rounded-2xl p-6 border border-slate-200">
           <div className="space-y-4">
             <div className="bg-slate-100 rounded-xl p-4">
-              <p className="text-slate-700">jual 3 kopi @15000</p>
+              <p className="text-slate-700">jual kopi 3</p>
               <p
                 className="text-slate-500 mt-1"
                 style={{ fontSize: "0.875rem" }}
@@ -26,14 +26,14 @@ export function Demo() {
             <div className="bg-[#3B82F6] text-white rounded-xl p-4 ml-12">
               <p>✓ Transaksi tercatat</p>
               <p className="mt-2">Total: Rp 45.000</p>
-              <p>HPP: Rp 21.000</p>
-              <p>Laba: Rp 24.000</p>
+              <p>Modal: Rp 21.000</p>
+              <p>Untung: Rp 24.000</p>
               <p className="mt-1 opacity-90" style={{ fontSize: "0.875rem" }}>
                 10:23 AM
               </p>
             </div>
             <div className="bg-slate-100 rounded-xl p-4">
-              <p className="text-slate-700">jual 2 nasi goreng @18000</p>
+              <p className="text-slate-700">jual nasi goreng 2</p>
               <p
                 className="text-slate-500 mt-1"
                 style={{ fontSize: "0.875rem" }}
@@ -42,56 +42,6 @@ export function Demo() {
               </p>
             </div>
           </div>
-        </div>
-      ),
-    },
-    {
-      title: "Google Sheets",
-      description: "Data tersimpan rapi dan terstruktur",
-      content: (
-        <div className="bg-white rounded-2xl p-6 border border-slate-200 overflow-x-auto">
-          <table className="w-full text-left" style={{ fontSize: "0.875rem" }}>
-            <thead>
-              <tr className="border-b border-slate-200">
-                <th className="p-2 text-slate-900">Tanggal</th>
-                <th className="p-2 text-slate-900">Produk</th>
-                <th className="p-2 text-slate-900">Qty</th>
-                <th className="p-2 text-slate-900">Harga</th>
-                <th className="p-2 text-slate-900">Total</th>
-                <th className="p-2 text-slate-900">HPP</th>
-                <th className="p-2 text-slate-900">Laba</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-slate-100">
-                <td className="p-2 text-slate-600">16 Okt 2025</td>
-                <td className="p-2 text-slate-600">Kopi</td>
-                <td className="p-2 text-slate-600">3</td>
-                <td className="p-2 text-slate-600">15.000</td>
-                <td className="p-2 text-slate-600">45.000</td>
-                <td className="p-2 text-slate-600">21.000</td>
-                <td className="p-2 text-[#10B981]">24.000</td>
-              </tr>
-              <tr className="border-b border-slate-100">
-                <td className="p-2 text-slate-600">16 Okt 2025</td>
-                <td className="p-2 text-slate-600">Nasi Goreng</td>
-                <td className="p-2 text-slate-600">2</td>
-                <td className="p-2 text-slate-600">18.000</td>
-                <td className="p-2 text-slate-600">36.000</td>
-                <td className="p-2 text-slate-600">16.000</td>
-                <td className="p-2 text-[#10B981]">20.000</td>
-              </tr>
-              <tr className="border-b border-slate-100">
-                <td className="p-2 text-slate-600">16 Okt 2025</td>
-                <td className="p-2 text-slate-600">Es Teh</td>
-                <td className="p-2 text-slate-600">5</td>
-                <td className="p-2 text-slate-600">5.000</td>
-                <td className="p-2 text-slate-600">25.000</td>
-                <td className="p-2 text-slate-600">10.000</td>
-                <td className="p-2 text-[#10B981]">15.000</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       ),
     },
@@ -106,61 +56,15 @@ export function Demo() {
             </h3>
             <div className="mt-4 space-y-2">
               <p>Total Penjualan: Rp 106.000</p>
-              <p>Total HPP: Rp 47.000</p>
-              <p>Total Laba: Rp 59.000</p>
+              <p>Total Modal: Rp 47.000</p>
+              <p>Total Untung: Rp 59.000</p>
               <p className="mt-4">Transaksi: 10 items</p>
               <p>Produk Terlaris: Kopi (3 unit)</p>
             </div>
             <div className="mt-6 pt-4 border-t border-white/20">
               <p className="opacity-90" style={{ fontSize: "0.875rem" }}>
-                Dikirim otomatis setiap hari pukul 21:00
+                Dikirim otomatis setiap hari pukul 6:00
               </p>
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "n8n Workflow",
-      description: "Otomasi yang menghubungkan semua sistem",
-      content: (
-        <div className="bg-white rounded-2xl p-6 border border-slate-200">
-          <div className="space-y-4">
-            <div className="flex items-center gap-3 p-4 bg-[#3B82F6]/5 rounded-xl border border-[#3B82F6]/20">
-              <div className="w-3 h-3 bg-[#3B82F6] rounded-full"></div>
-              <span className="text-slate-700" style={{ fontWeight: 500 }}>
-                Telegram Bot Trigger
-              </span>
-            </div>
-            <div className="pl-6 border-l-2 border-slate-200 ml-1.5">
-              <div className="flex items-center gap-3 p-4 bg-purple-50 rounded-xl border border-purple-200">
-                <div className="w-3 h-3 bg-purple-600 rounded-full"></div>
-                <span className="text-slate-700" style={{ fontWeight: 500 }}>
-                  Parse Message
-                </span>
-              </div>
-            </div>
-            <div className="pl-6 border-l-2 border-slate-200 ml-1.5">
-              <div className="flex items-center gap-3 p-4 bg-[#10B981]/5 rounded-xl border border-[#10B981]/20">
-                <div className="w-3 h-3 bg-[#10B981] rounded-full"></div>
-                <span className="text-slate-700" style={{ fontWeight: 500 }}>
-                  Update Google Sheets
-                </span>
-              </div>
-            </div>
-            <div className="pl-6 border-l-2 border-slate-200 ml-1.5">
-              <div className="flex items-center gap-3 p-4 bg-orange-50 rounded-xl border border-orange-200">
-                <div className="w-3 h-3 bg-orange-600 rounded-full"></div>
-                <span className="text-slate-700" style={{ fontWeight: 500 }}>
-                  Calculate Profit
-                </span>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 p-4 bg-[#3B82F6]/5 rounded-xl border border-[#3B82F6]/20">
-              <div className="w-3 h-3 bg-[#3B82F6] rounded-full"></div>
-              <span className="text-slate-700" style={{ fontWeight: 500 }}>
-                Send Confirmation
-              </span>
             </div>
           </div>
         </div>

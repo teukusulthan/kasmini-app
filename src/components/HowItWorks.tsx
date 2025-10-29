@@ -16,7 +16,7 @@ export function HowItWorks() {
       icon: MessageSquare,
       title: "Catat Penjualan",
       description:
-        'Kirim pesan sederhana seperti "jual 2 nasi goreng" ke bot Telegram.',
+        'Kirim pesan sederhana seperti "jual nasi goreng 2" ke bot Telegram.',
     },
     {
       number: "03",
