@@ -6,7 +6,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Siti Nurhaliza",
+      name: "M Hasbianur",
       business: "Warung Kopi Seduh",
       avatar:
         "https://images.unsplash.com/photo-1573496800808-56566a492b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc2lhbiUyMHdvbWFuJTIwZW50cmVwcmVuZXVyfGVufDF8fHx8MTc2MDU5NTc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -24,7 +24,7 @@ export function Testimonials() {
       rating: 5,
     },
     {
-      name: "Indah Permata",
+      name: "Alvin Rikardo",
       business: "Catering Rumahan Berkah",
       avatar:
         "https://images.unsplash.com/photo-1594402918464-2d7bb2e97292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFsbCUyMGJ1c2luZXNzJTIwb3duZXIlMjBjYWZlfGVufDF8fHx8MTc2MDU5NTc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -72,7 +72,7 @@ export function Testimonials() {
                 className="text-slate-700 mb-4 leading-relaxed"
                 style={{ fontSize: "0.8125rem" }}
               >
-                "{testimonial.quote}"
+                &ldquo;{testimonial.quote}&rdquo;
               </p>
 
               <div className="flex items-center gap-2.5">
