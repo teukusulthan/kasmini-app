@@ -1,6 +1,6 @@
 "use client";
 
-import { Coffee, ShoppingBag, Home, Users } from "lucide-react";
+import { Coffee, Home, Users, CookingPot } from "lucide-react";
 
 export function TargetAudience() {
   const audiences = [
@@ -11,8 +11,8 @@ export function TargetAudience() {
       solution: "Catat via chat saat ada waktu luang.",
     },
     {
-      icon: ShoppingBag,
-      title: "Toko Online",
+      icon: CookingPot,
+      title: "Pedangang Kecil",
       painPoint: "Orderan banyak, pencatatan manual ribet.",
       solution: "Input cepat, data langsung terorganisir.",
     },
@@ -21,12 +21,6 @@ export function TargetAudience() {
       title: "Jasa Rumahan",
       painPoint: "Sulit pantau laba setiap hari.",
       solution: "Laba otomatis dihitung real-time.",
-    },
-    {
-      icon: Users,
-      title: "Komunitas/UKM",
-      painPoint: "Banyak anggota, perlu akses bersama.",
-      solution: "Multi-user dengan peran yang jelas.",
     },
   ];
 
@@ -49,7 +43,7 @@ export function TargetAudience() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {audiences.map((audience, index) => {
             const Icon = audience.icon;
             return (

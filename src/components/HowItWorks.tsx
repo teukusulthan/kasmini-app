@@ -7,16 +7,16 @@ export function HowItWorks() {
     {
       number: "01",
       icon: Settings,
-      title: "Setel Kasmini",
+      title: "Daftar Kasmini",
       description:
-        "Hubungkan Telegram bot dengan Google Sheets Anda. Setup selesai dalam 10 menit.",
+        "Klik 'Coba Gratis' lalu klik start dan ketik nama bisnismu.",
     },
     {
       number: "02",
       icon: MessageSquare,
       title: "Catat Penjualan",
       description:
-        'Kirim pesan sederhana seperti "jual nasi goreng 2" ke bot Telegram.',
+        'Tambahkan produk dan kirim pesan sederhana seperti "jual nasi goreng 2" ke bot Telegram.',
     },
     {
       number: "03",
@@ -106,16 +106,7 @@ export function HowItWorks() {
               </span>
             </div>
             <ArrowRight className="h-3.5 w-3.5 text-slate-400 rotate-90 md:rotate-0" />
-            <div className="flex items-center gap-2 bg-[#10B981]/5 px-3 py-2 rounded-lg border border-[#10B981]/20">
-              <BarChart3 className="h-4 w-4 text-[#10B981]" />
-              <span
-                className="text-slate-900"
-                style={{ fontWeight: 600, fontSize: "0.8125rem" }}
-              >
-                Google Sheets
-              </span>
-            </div>
-            <ArrowRight className="h-3.5 w-3.5 text-slate-400 rotate-90 md:rotate-0" />
+
             <div className="flex items-center gap-2 bg-[#3B82F6]/5 px-3 py-2 rounded-lg border border-[#3B82F6]/20">
               <MessageSquare className="h-4 w-4 text-[#3B82F6]" />
               <span

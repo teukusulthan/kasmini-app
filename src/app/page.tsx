@@ -13,16 +13,12 @@ import { Footer } from "@/components/Footer";
 export default function Page() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Nav selalu di atas */}
       <Navbar />
 
-      {/* Hero */}
       <Hero />
 
-      {/* Value strip (highlight nilai cepat dibaca) */}
       <ValueStrip />
 
-      {/* Anchor untuk smooth-scroll dari Navbar */}
       <div id="fitur" />
       <Features />
 

@@ -11,7 +11,7 @@ export function Testimonials() {
       avatar:
         "https://images.unsplash.com/photo-1573496800808-56566a492b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc2lhbiUyMHdvbWFuJTIwZW50cmVwcmVuZXVyfGVufDF8fHx8MTc2MDU5NTc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       quote:
-        "Sejak pakai Kasmini, saya hemat 2 jam sehari. Tidak perlu lagi catat manual di buku, semua otomatis masuk Google Sheets.",
+        "Sejak pakai Kasmini, saya hemat 2 jam sehari. Tidak perlu lagi catat manual di buku, semua otomatis tercatat dan dikirimin rekapannya.",
       rating: 5,
     },
     {
@@ -20,7 +20,7 @@ export function Testimonials() {
       avatar:
         "https://images.unsplash.com/photo-1627230868261-59051f3e5de3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYW4lMjBjb2ZmZWUlMjBzaG9wJTIwb3duZXJ8ZW58MXx8fHwxNzYwNTk1NzkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       quote:
-        "Setup cuma 10 menit, langsung jalan. Sekarang setiap hari dapat laporan laba bersih tanpa hitung-hitung lagi.",
+        "Setup gasampe 5 menitt, langsung jalan. Sekarang setiap hari dapat laporan laba bersih tanpa hitung-hitung lagi.",
       rating: 5,
     },
     {
@@ -29,7 +29,7 @@ export function Testimonials() {
       avatar:
         "https://images.unsplash.com/photo-1594402918464-2d7bb2e97292?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFsbCUyMGJ1c2luZXNzJTIwb3duZXIlMjBjYWZlfGVufDF8fHx8MTc2MDU5NTc5MHww&ixlib=rb-4.1.0&q=80&w=1080",
       quote:
-        "Awalnya skeptis pakai bot, ternyata lebih praktis dari aplikasi lain. Staff juga mudah pakai, tinggal kirim chat ke Telegram.",
+        "Awalnya skeptis pakai bot, ternyata lebih praktis dari aplikasi lain.  mudah pakai, tinggal kirim chat ke Telegram.",
       rating: 5,
     },
   ];

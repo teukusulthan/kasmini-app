@@ -30,8 +30,8 @@ export function Hero() {
               className="text-slate-600 max-w-2xl mx-auto"
               style={{ fontSize: "1.0625rem", lineHeight: 1.7 }}
             >
-              Catat penjualan lewat Telegram, otomatis masuk Google Sheets,
-              hitung laba, dan kirim rekap harian/mingguan—tanpa ribet.
+              Catat mudah, cepat, dan efisien dengan hanya melalui chat
+              Telegram, otomatis tercatat dan dikirimin rekapannya.
             </p>
 
             <div className="pt-2">

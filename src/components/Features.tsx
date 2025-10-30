@@ -21,7 +21,7 @@ export function Features() {
       icon: Workflow,
       title: "Otomasi",
       description:
-        "Workflow otomatis memproses data masuk ke Sheets dan menghitung laba real-time.",
+        "Workflow otomatis memproses data masuk ke database dan menghitung laba real-time.",
     },
     {
       icon: TrendingUp,
@@ -32,20 +32,7 @@ export function Features() {
     {
       icon: FileText,
       title: "Rekap Otomatis",
-      description:
-        "Terima rekap penjualan harian atau mingguan langsung ke Telegram Anda.",
-    },
-    {
-      icon: Users,
-      title: "Multi-User",
-      description:
-        "Bisa digunakan untuk beberapa jenis usaha yang kamu miliki.",
-    },
-    {
-      icon: Download,
-      title: "Ekspor & Integrasi",
-      description:
-        "Export ke CSV atau sinkronkan dengan Google Drive. Data selalu aman.",
+      description: "Terima rekap penjualan harian langsung ke Telegram Anda.",
     },
   ];
 
@@ -68,7 +55,7 @@ export function Features() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (

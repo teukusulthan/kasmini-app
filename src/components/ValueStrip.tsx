@@ -11,12 +11,12 @@ export function ValueStrip() {
     },
     {
       icon: BarChart3,
-      title: "Rekap otomatis",
+      title: "Rekap Otomatis",
       description: "Harian & mingguan",
     },
     {
       icon: Sheet,
-      title: "Data rapi di Google Sheets",
+      title: "Data Rapi",
       description: "Familiar & mudah diakses",
     },
   ];
