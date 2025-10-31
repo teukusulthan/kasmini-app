@@ -1,6 +1,12 @@
 "use client";
 
-import { Settings, MessageSquare, BarChart3, ArrowRight } from "lucide-react";
+import {
+  Settings,
+  MessageSquare,
+  BarChart3,
+  ArrowRight,
+  File,
+} from "lucide-react";
 
 export function HowItWorks() {
   const steps = [
@@ -20,10 +26,10 @@ export function HowItWorks() {
     },
     {
       number: "03",
-      icon: BarChart3,
+      icon: File,
       title: "Terima Rekap",
       description:
-        "Dapatkan rekap penjualan harian atau mingguan otomatis di Telegram.",
+        "Dapatkan rekap penjualan harian dalam bentuk pdf otomatis di Telegram.",
     },
   ];
 
@@ -108,7 +114,7 @@ export function HowItWorks() {
             <ArrowRight className="h-3.5 w-3.5 text-slate-400 rotate-90 md:rotate-0" />
 
             <div className="flex items-center gap-2 bg-[#3B82F6]/5 px-3 py-2 rounded-lg border border-[#3B82F6]/20">
-              <MessageSquare className="h-4 w-4 text-[#3B82F6]" />
+              <File className="h-4 w-4 text-[#3B82F6]" />
               <span
                 className="text-slate-900"
                 style={{ fontWeight: 600, fontSize: "0.8125rem" }}
