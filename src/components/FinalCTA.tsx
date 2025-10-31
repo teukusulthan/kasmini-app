@@ -74,10 +74,10 @@ export function FinalCTA() {
               className="text-white mb-0.5"
               style={{ fontWeight: 600, fontSize: "0.8125rem" }}
             >
-              Integrasi Google Sheets
+              Rekap dalam bentuk pdf
             </p>
             <p className="text-slate-400" style={{ fontSize: "0.6875rem" }}>
-              Fleksibel & mudah dikustomisasi
+              Fleksibel & mudah disimpan
             </p>
           </div>
         </div>
