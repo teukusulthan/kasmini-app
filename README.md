@@ -29,4 +29,6 @@ npm install
 
 ### 2. Run Locally
 
-`bash npm run dev`
+```bash
+ npm run dev
+```
