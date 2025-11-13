@@ -22,8 +22,8 @@ This repository contains a landing page that explains about the Kasmini Telegram
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/<your-username>/kasmini-frontend.git
-cd kasmini-frontend
+git clone https://github.com/teukusulthan/kasmini-app
+cd kasmini-app
 npm install
 ```
 
